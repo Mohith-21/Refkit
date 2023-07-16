@@ -1,0 +1,107 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(to right, #a9abab, #f6f4f5);
+}
+
+header {
+    background: linear-gradient(to left, #28d6e0, #ecf2f3);
+    color: fff;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+ .header-content {
+    text-align: center;
+    
+}
+
+
+footer {
+    background: linear-gradient(to right, #28d6e0, #ecf2f3);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex; 
+    min-height: calc(100vh - 70px); 
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background: linear-gradient(to left, #28d6e0, #ecf2f3);
+    
+    border-radius: 4px;
+    margin-top: 26px;
+    text-decoration: none;
+    margin-bottom: 26px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    position: relative; /* Increase the margin to create spacing between the links */
+}
+
+main {
+    flex-grow: 1; /* Allow main section to grow and occupy remaining space */
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: -1%;
+    
+
+}
+
+/* Style the iframe to fill the entire main content area         background: linear-gradient(to right, #8f1660, #e52e71);  */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+a{
+    text-decoration: none;
+    
+
+}
+.logo1 img {
+            display: block; /* Make the image a block element */
+            max-width: 70%; /* Set the maximum width to 100% of its container */
+            height: 70%; /* Automatically adjust the height based on the maximum value */
+            margin-bottom: 20px;
+}
+
+.aside_anchors ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aside_anchors li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.aside_anchors a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
